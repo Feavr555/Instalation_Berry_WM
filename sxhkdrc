@@ -1,0 +1,28 @@
+XF86AudioMute
+	amixer -q set Master toggle
+
+XF86AudioLowerVolume
+	amixer -q set Master 5%- unmute
+
+XF86AudioRaiseVolume
+	amixer -q set Master 5%+ unmute
+
+XF86MonBrightnessDown
+	brightnessctl set 5%-
+
+XF86MonBrightnessUp
+	brightnessctl set 5%+
+
+super + a
+	~/.config/berry/window.sh 1
+
+super + s
+	~/.config/berry/window.sh 2
+
+super + z
+	~/.config/berry/window.sh 3
+
+super + x
+	~/.config/berry/window.sh 4
+
+
