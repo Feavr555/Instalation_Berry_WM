@@ -1,4 +1,5 @@
 
+
 echo "Instalador de FeavrOS"
 
 echo "Instalando dependencias..."
@@ -44,6 +45,7 @@ mkdir -p ~/.config/berry
 echo "Copiando archivos"
 cp -v .xinitrc ~/.xinitrc
 cp -v picom.conf ~/.config/picom.conf
+cp -v autostart sxhkdrc ~
 
 
 echo "Configurando eventos"
@@ -51,6 +53,24 @@ cp -v window.sh ~/.config/berry/window.sh
 
 echo "Configurando vim"
 cp -v vimrc /etc/vimrc
+
+startx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
