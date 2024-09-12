@@ -30,7 +30,7 @@ echo "Instalando barra"
 pacman -S polybar
 
 echo "Instalando aplicaciónes"
-pacman -S alacritty firefox alsa-utils brightnessctl nemo gedit fastfetch htop
+pacman -S alacritty firefox alsa-utils brightnessctl nemo gedit fastfetch htop picom xwallpaper
 
 echo "Instalando suite ofimática"
 pacman -S libreoffice-es

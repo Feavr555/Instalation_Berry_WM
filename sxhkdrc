@@ -75,15 +75,15 @@ XF86MonBrightnessUp
 	brightnessctl set 5%+
 
 super + a
-	~/.config/berry/window.sh 1
+	sh ~/.config/berry/window.sh 1
 
 super + s
-	~/.config/berry/window.sh 2
+	sh ~/.config/berry/window.sh 2
 
 super + z
-	~/.config/berry/window.sh 3
+	sh ~/.config/berry/window.sh 3
 
 super + x
-	~/.config/berry/window.sh 4
+	sh ~/.config/berry/window.sh 4
 
 
